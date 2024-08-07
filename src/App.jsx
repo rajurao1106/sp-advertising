@@ -55,7 +55,7 @@ AOS.init({
   return (
     <div>
       <Navbar/>
-        <Routes basename="/">
+        <Routes >
           <Route path='/about-me' element={<AboutMe/>}/>
           <Route path='/choose-us' element={<ChooseUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
