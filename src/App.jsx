@@ -9,7 +9,7 @@ import ChooseUs from './components/ChooseUs/ChooseUs'
 import Contact from './components/Contact/Contact'
 import Showcase from './components/Showcase/Showcase'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
-import {  HashRouter as Routes, Route, Switch} from 'react-router-dom'
+import {  HashRouter as Router, Route, Switch} from 'react-router-dom'
 import DigitalMarketing from './components/Services/DigitalMarketing'
 import OutdoorAdvertising from './components/Services/OutdoorAdvertising'
 import DesigningServices from './components/Services/DesigningServices'
@@ -55,8 +55,9 @@ AOS.init({
   return (
     <div>
       <Navbar/>
-        <Routes>
-          <Switch>
+      <Router>
+        <Switch>
+        
           <Route path='/about-me' element={<AboutMe/>}/>
           <Route path='/choose-us' element={<ChooseUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
@@ -74,8 +75,9 @@ AOS.init({
           <Route path="/Branding-Strategy"element={<BrandingStrategy/>}/>
           <Route path="/Event-Promotion"element={<EventPromotion/>}/>
           <Route path="/Blog"element={<Blog/>}/>
-          </Switch>
-        </Routes>
+        
+        </Switch>
+        </Router>
         
       <Footer/>
     </div>
