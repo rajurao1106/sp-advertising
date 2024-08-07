@@ -55,12 +55,12 @@ AOS.init({
   return (
     <div>
       <Navbar/>
-        <Routes >
+        <Routes>
           <Route path='/about-me' element={<AboutMe/>}/>
           <Route path='/choose-us' element={<ChooseUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path="/footer"element={<Footer/>}/>
-          <Route path="/sp-advertising"element={<Home/>} />
+          <Route path="/"element={<Home/>} />
           <Route path="/navbar"element={<Navbar/>}/>
           <Route path="/read-more"element={<ScrollEffect/>}/>
           <Route path="/showcase"element={<Showcase/>}/>
