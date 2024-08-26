@@ -9,7 +9,18 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@svgr/rollup": "^8.1.0",
+    "@szhsin/react-menu": "^4.2.2",
+    "aos": "^2.3.4",
+    "react-router-dom": "^6.26.1",
+    "react-slick": "^0.30.2",
+    "react-slideshow-image": "^4.3.1",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
